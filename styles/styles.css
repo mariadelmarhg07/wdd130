@@ -22,7 +22,7 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0x;
 }
 
 main {
@@ -50,10 +50,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-p {
-    padding: 0;
 }
 
 footer {
