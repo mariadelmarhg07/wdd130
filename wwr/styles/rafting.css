@@ -69,23 +69,63 @@ h1 {
 .hero article {
     position: absolute;
     top: 200px;
-    left: 50px;
-    width: 60%;
-    padding: 20px;
-    background-color: var(--accent2-color);
-    color: var([--primary-color]);
+    left: 405px;
+    width: 50%;
+    padding: 0px;
+    background-color: rgba(244, 185, 66, 0.7);
+    color: var(--accent1-color);
     border-radius: 10px;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    margin: 0 0 15px 20px;
+    margin: 15px 15px 0px 10px;
     border: 3px solid var(--secondary-color);
     box-shadow: 0 4px 8px rgb(0 0 0 / 0.2);
 }
 
 .hero article p {
+    text-align: center;
+    padding: 0;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+p {
     text-align: justify;
-    margin: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.socialmedia img {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
 }
