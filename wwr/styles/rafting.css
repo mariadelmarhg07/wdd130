@@ -80,7 +80,7 @@ section h2 {
     left: 405px;
     width: 50%;
     padding: 0px;
-    background-color: rgba(244, 185, 66, 0.7);
+    background-color: color-mix(in srgb, var(--accent2-color) 70%, transparent);
     color: var(--accent1-color);
     border-radius: 10px;
 }
