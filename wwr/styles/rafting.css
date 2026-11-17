@@ -25,6 +25,46 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+header > img {
+    width: 150px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+header nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav a:hover {
+    color: var(--accent2-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -114,4 +154,109 @@ p {
     display: block;
     width: 32px;
     height: 32px;
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+/*History section*/
+
+.history {
+    margin: 0;
+    padding: 10px;
+}
+
+.history h2 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.history-content p {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/*Adventure Section*/
+
+.adventures {
+    margin: 0;
+    padding: 10px;
+}
+
+.adventures h2 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    text-align: center;
+}
+
+.adventure-gallery figure {
+    margin: 0;
+    padding: 5px;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+.adventure-gallery figcaption {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    padding: 10px 0;
+    color: var(--secondary-color);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 700px) {
+
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    header nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .history-content {
+        grid-template-columns: 1fr;
+    }
+
+    .adventure-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
 }
