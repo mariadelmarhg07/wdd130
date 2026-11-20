@@ -190,8 +190,10 @@ footer {
 
 .history-content img {
     display: block;
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    margin: 20px auto;
     object-fit: cover;
     border: 3px solid var(--secondary-color);
     border-radius: 8px;
