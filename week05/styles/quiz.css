@@ -5,13 +5,22 @@
 }
 
 main {
-    max-width: 500px;
+    max-width: 530px;
     background-color: #00869b;
     color: #fff;
 }
 
 h1 {
-    margin: .5 rem;
+    margin: .5rem;
+}
+
+strong {
+    color: #005966;
+    font-size: 1.1rem;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 form {
@@ -51,4 +60,7 @@ code {
 
 .quiz-item {
     border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
