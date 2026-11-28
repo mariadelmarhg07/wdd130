@@ -1,0 +1,122 @@
+<!--Wwr Proyect-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Colombia Rivers - Whitewater Experience</title>
+    <meta name="description" content="Contact Colombia Rivers for rafting reservations, questions, and information about our whitewater experiences in Colombia.">
+    <meta name="author" content="Maria Del Mar Hernandez">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Colombia Rivers" width="200">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <h2>Colombia Rivers - Whitewater Experience</h2>
+            <address>
+                Calle 38 # 41C - 44 <br>
+                Cali, Valle del Cauca, Colombia <br>
+                +57 3245691291 <br>
+                <a href="mailto:infor@colombiarivers.com">info@colombiarivers.com</a>
+            </address>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.735018442315!2d-76.51155770000005!3d3.4146266000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6da88d8029b%3A0x444b727b903bd85e!2sCl.%2038%20%23%2041C-44%2C%20Union%20de%20Vivienda%20Popular%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1795882995105!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" width="100%"></iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <fieldset>
+                    <legend>Message Purpose:</legend>
+                    <label for="general">
+                        <input type="radio" name="purpose" id="general" value="general" checked> General Inquiry
+                    </label>
+
+                    <label for="reservation">
+                        <input type="radio" name="purpose" id="reservation" value="reservation"> Reservation Question
+                    </label>
+
+                    <label for="suggestion">
+                        <input type="radio" name="purpose" id="suggestion" value="suggestion"> Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" placeholder="Type your message here..." rows="5" required></textarea>
+                </div>
+
+                <div class="newsletter">
+                    <input type="checkbox" id="susbcribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+        <!--Employee Profile-->
+        <section class="employees">
+            <h2>We Are Here to Serve You!</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee1">
+                    <figcaption>
+                        <strong>River Operations Manager</strong>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee2">
+                    <figcaption><strong>Safety and Equipment Coordinator</strong></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee3">
+                    <figcaption><strong>Photographer and Rafting Guide</strong></figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 Colombia Rivers | Whitewater Experience | Mar Hernandez </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-color-svgrepo-com.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-svgrepo-com.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-1-svgrepo-com.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
