@@ -144,18 +144,6 @@ p {
     text-align: justify;
 }
 
-.socialmedia {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.socialmedia img {
-    display: block;
-    width: 32px;
-    height: 32px;
-}
-
 header,
 footer {
     max-width: 840px;
@@ -266,6 +254,8 @@ footer p {
     text-align: left;
 }
 
+/* SOCIAL MEDIA */
+
 .socialmedia {
     display: flex;
     justify-content: flex-end;
@@ -310,7 +300,7 @@ footer p {
 }
 
 .contact-info address {
-    font-size: normal;
+    font-style: normal;
     line-height: 1.8;
     text-align: center;
     margin: 20px 0;
